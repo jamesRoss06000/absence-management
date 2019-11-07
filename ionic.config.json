@@ -1,5 +1,7 @@
 {
   "name": "AbsenceManagement",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

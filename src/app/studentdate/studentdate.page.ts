@@ -67,7 +67,7 @@ export class StudentdatePage {
     currentDate: new Date(),
   }
 
-  @ViewChild(CalendarComponent) myCal: CalendarComponent;
+  @ViewChild(CalendarComponent,{static: false}) myCal: CalendarComponent;
 
   ngOnInit() {
     this.resetEvent();
