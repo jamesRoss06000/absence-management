@@ -1,14 +1,30 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      <h2>Menu</h2>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+
+  <body ng-app="myApp">
+    <div class="ion-padding" id="coursList">
+      <br>
+      <img src="\assets\icon\demarretastory.jpg" alt="DemarreTaStory">
+      <br>
+      <br>
+      <ion-button btnWide (click)="goToDateSelect($event)">
+        Agenda
+      </ion-button>
+      <br>
+      <ion-button btnWide (click)="addRdv($event)">
+        Ajoute RDV 
+      </ion-button>
+      <br>
+      <ion-button class="logout" color="danger" (click)="logout()">
+        Quitter l'application
+      </ion-button>
+    </div>
+  </body>
 </ion-content>
