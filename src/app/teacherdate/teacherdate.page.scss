@@ -1,5 +1,17 @@
 ion-title,
-.dateBtn {
+.dateBtn, .logout {
   background-color: #304C8B;
   color: #f4f4f4;
+  width: 100%;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  height: 100px;
+  width: 80%;
 }

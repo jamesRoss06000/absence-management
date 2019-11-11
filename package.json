@@ -30,6 +30,7 @@
     "dotenv": "^8.2.0",
     "ion2-calendar": "^2.2.0",
     "ionic-angular": "^3.9.9",
+    "ionic-framework": "^2.0.0-beta.2",
     "ionic2-calendar": "^0.5.7",
     "rxjs": "^6.5.3",
     "rxjs-compat": "^6.5.3",

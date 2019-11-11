@@ -19,3 +19,14 @@ ion-title,
 ion-card {
   background-color: #33B6C5;
 }
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  height: 100px;
+  width: 80%;
+}

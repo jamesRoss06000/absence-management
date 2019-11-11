@@ -13,8 +13,9 @@
       </ion-button>
       <br>
       <br>
-      <img src="\assets\icon\demarretastory.jpg" alt="DemarreTaStory">
-      <br>
+      <div class="imageDiv">
+          <img src="\assets\icon\school-kids.jpg" alt="school kids">
+      </div>
       <br>
       <p>{{ this.place }}</p>
       <p>Cochez la case des élèves en classe</p>
@@ -27,9 +28,10 @@
         <ion-button (click)="signalAbsence($event, students)">
           Confirmer
         </ion-button>
+        <ion-button class="logout" color="danger" (click)="logout()">
+          Quitter l'application
+        </ion-button>
       </ion-list>
-      <ion-button class="logout" color="danger" (click)="logout()">
-        Quitter l'application
-      </ion-button>
+
     </div>
 </ion-content>

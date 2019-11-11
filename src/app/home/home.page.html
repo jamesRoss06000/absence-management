@@ -11,14 +11,15 @@
   <body ng-app="myApp">
     <div class="ion-padding" id="coursList">
       <br>
-      <img src="\assets\icon\demarretastory.jpg" alt="DemarreTaStory">
+      <div class="imageDiv">
+          <img src="\assets\icon\school-kids.jpg" alt="school kids">
+      </div>
       <br>
-      <br>
-      <ion-button btnWide (click)="goToDateSelect($event)">
+      <ion-button class="button" (click)="goToDateSelect($event)">
         Agenda
       </ion-button>
       <br>
-      <ion-button btnWide (click)="addRdv($event)">
+      <ion-button class="button" (click)="addRdv($event)">
         Ajoute RDV 
       </ion-button>
       <br>

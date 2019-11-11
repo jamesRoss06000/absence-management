@@ -1,6 +1,6 @@
 ion-title,
 .dateBtn,
-button {
+.button {
   width: 100%;
   background-color: #304C8B;
   color: #f4f4f4;
@@ -9,4 +9,15 @@ button {
 ion-card {
   background-color: #33B6C5;
   color: white;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  height: 100px;
+  width: 80%;
 }

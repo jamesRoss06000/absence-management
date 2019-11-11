@@ -7,10 +7,23 @@ ion-title,
   border: none;
 }
 
-.input-box {
-  padding-left: 10px;
+#loginDiv {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ion-card {
-  background-color: #33B6C5;
+ion-input {
+  padding-left: 10px;
+  border: lightblue 1px solid;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  height: 100px;
+  width: 80%;
 }

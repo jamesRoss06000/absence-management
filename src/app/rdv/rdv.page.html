@@ -13,7 +13,10 @@
     </ion-button>
     <br>
     <br>
-    <img src="\assets\icon\demarretastory.jpg" alt="DemarreTaStory">
+    <div class="imageDiv">
+        <img src="\assets\icon\school-kids.jpg" alt="school kids">
+    </div>
+    <br>
     <h2 class="ios title-ios hydrated">Remplissez les champs ci-dessous et confirmez</h2>
 
     <form (submit)="createRdv($event)">
@@ -42,7 +45,7 @@
           <ion-select-option *ngFor="let lieu of lieux" [value]="">{{ lieu.campus }} </ion-select-option>
         </ion-select>
         <br>
-        <input type="submit" class="dateBtn" value="CONFIRMEZ">
+        <input type="submit" class="dateBtn" value="Confirmer">
         <br>
         <ion-button class="logout" color="danger" (click)="logout()">
           Quitter l'application
